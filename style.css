@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+
+* {
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+  }
+
+  body {
+    background:lightpink;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:lightslategray;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wespon1,
+.wespon2,
+.wespon3 {
+    width: 100%;
+}
+
+.section_container {
+    max-width: 1400;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wespon1 {
+    background-color:lightgoldenrodyellow;
+    height: 40vh;
+    padding-top: 100px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.wespon2 {
+    background-color:mediumseagreen;
+    height: 80vh;
+    padding-top: 40px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.wespon3 {
+    background-color:black;
+    height: 60vh;
+    padding-top: 40px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.wespon1 > .section_container > .image {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.wespon2 > .section_container  > .image {
+    order: 2;
+    width: 900px;
+    margin-right: 50px;
+}
+
+.wespon3 > .section_container  > .image {
+    width: 1100px;
+    margin-left: 50px;
+}
+
+.image > img {
+    width: 100%;
+    
+}
+
+.text {
+    width: 450px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.text > .title {
+    border-color:olive;
+    border-width: 4px;
+    border-style:solid;
+    border-radius: 20px;
+    padding:4px;
+    padding-left: 40px;
+    font-size: 100px;
+}
+
+.text {
+    margin-top: 20px;
+    color:midnightblue;
+}
+
+.text > .description {
+    font-size: 40px;
+    font-weight: 100;
+    padding: 20px;
+}
+
+
+.wespon2 > .section_container  > .text > .title {
+    border-color:olive;
+    border-width: 4px;
+    border-style:solid;
+    border-radius: 20px;
+    padding:4px;
+    padding-left: 40px;
+    font-size: 100px;
+}
+
+.wespon2 > .section_container  > .text {
+    margin-left: 100px;
+}
+
+.wespon3 > .section_container  > .text {
+    padding-bottom: 210px;
+    margin-right: 60px;
+    color:lightpink;
+}
+
+.swiper-container-horizontal>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite, 
+.swiper-container-vertical>.swiper-pagination-progressbar {
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    height: 50%;
+}
