@@ -83,7 +83,7 @@ body {
 .wespon2 {
     background-color:mediumseagreen;
     height: 60vh;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-left: 100px;
     padding-right: 100px; 
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .wespon1 > .section_container > .image {
-    width: 200px;
+    width: 350px;
     margin-right: 50px;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .text {
-    width: 400px;
+    width: 350px;
     font-family: 'Noto Sans TC', sans-serif;
     margin-top: 20px;
     color:midnightblue;
