@@ -116,7 +116,7 @@ body {
 }
 
 .text {
-    width: 600px;
+    width: 400px;
     font-family: 'Noto Sans TC', sans-serif;
     margin-top: 20px;
     color:midnightblue;
@@ -129,13 +129,13 @@ body {
     border-radius: 20px;
     padding:4px;
     padding-left: 40px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 
 
 .text > .description {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 100px;
     padding: 20px;
 }
@@ -148,7 +148,7 @@ body {
     border-radius: 20px;
     padding:4px;
     padding-left: 40px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .wespon2 > .section_container  > .text {
