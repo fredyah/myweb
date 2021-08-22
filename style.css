@@ -60,11 +60,11 @@ body {
 .wespon1,
 .wespon2,
 .wespon3 {
-    width: 100%;
+    width:100vh;
 }
 
 .section_container {
-    max-width: 1170px;
+    max-width: 100vh;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -74,41 +74,41 @@ body {
 
 .wespon1 {
     background-color:lightgoldenrodyellow;
-    height: 55vh;
-    padding-top: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    height: 40vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
 }
 
 .wespon2 {
     background-color:mediumseagreen;
-    height: 60vh;
-    padding-top: 40px;
-    padding-left: 100px;
-    padding-right: 100px; 
+    height: 50vh;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh; 
 }
 
 .wespon3 {
     background-color:black;
-    height: 60vh;
-    padding-top: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    height: 40vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh; 
 }
 
 .wespon1 > .section_container > .image {
-    width: 320px;
-    margin-right: 50px;
+    width: 15vw;
+    
 }
 
 .wespon2 > .section_container  > .image {
     order: 2;
-    width: 400px;
+    width: 25vw;
     margin-right: 50px;
 }
 
 .wespon3 > .section_container  > .image {
-    width: 400px;
+    width: 20vw;
     margin-left: 50px;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .text {
-    width: 350px;
+    width: 15vw;
     font-family: 'Noto Sans TC', sans-serif;
     margin-top: 20px;
     color:midnightblue;
