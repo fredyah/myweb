@@ -95,18 +95,18 @@ body {
 }
 
 .wespon1 > .section_container > .image {
-    width: 500px;
+    width: 200px;
     margin-right: 50px;
 }
 
 .wespon2 > .section_container  > .image {
     order: 2;
-    width: 900px;
+    width: 400px;
     margin-right: 50px;
 }
 
 .wespon3 > .section_container  > .image {
-    width: 1100px;
+    width: 400px;
     margin-left: 50px;
 }
 
@@ -129,13 +129,13 @@ body {
     border-radius: 20px;
     padding:4px;
     padding-left: 40px;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 
 
 .text > .description {
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 100px;
     padding: 20px;
 }
@@ -148,7 +148,7 @@ body {
     border-radius: 20px;
     padding:4px;
     padding-left: 40px;
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .wespon2 > .section_container  > .text {
