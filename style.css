@@ -74,7 +74,7 @@ body {
 
 .wespon1 {
     background-color:lightgoldenrodyellow;
-    height: 45vh;
+    height: 55vh;
     padding-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
@@ -83,7 +83,7 @@ body {
 .wespon2 {
     background-color:mediumseagreen;
     height: 60vh;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 100px;
     padding-right: 100px; 
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .wespon1 > .section_container > .image {
-    width: 350px;
+    width: 320px;
     margin-right: 50px;
 }
 
