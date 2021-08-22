@@ -64,7 +64,7 @@ body {
 }
 
 .section_container {
-    max-width: 1400;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -74,24 +74,22 @@ body {
 
 .wespon1 {
     background-color:lightgoldenrodyellow;
-    height: 40vh;
-    padding-top: 100px;
-    padding-left: 600px;
-    padding-right: 600px;
+    height: 45vh;
+    padding-top: 150px;
+
 }
 
 .wespon2 {
     background-color:mediumseagreen;
-    height: 80vh;
-    padding-top: 40px;
-    padding-left: 600px;
-    padding-right: 600px;
+    height: 60vh;
+    padding-top: 200px;
+    
 }
 
 .wespon3 {
     background-color:black;
     height: 60vh;
-    padding-top: 40px;
+    padding-top: 300px;
     padding-left: 600px;
     padding-right: 600px;
 }
@@ -118,8 +116,10 @@ body {
 }
 
 .text {
-    width: 450px;
+    width: 600px;
     font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 20px;
+    color:midnightblue;
 }
 
 .text > .title {
@@ -132,14 +132,11 @@ body {
     font-size: 100px;
 }
 
-.text {
-    margin-top: 20px;
-    color:midnightblue;
-}
+
 
 .text > .description {
     font-size: 40px;
-    font-weight: 100;
+    font-weight: 100px;
     padding: 20px;
 }
 
@@ -159,7 +156,7 @@ body {
 }
 
 .wespon3 > .section_container  > .text {
-    padding-bottom: 210px;
+    padding-bottom: 250px;
     margin-right: 60px;
     color:lightpink;
 }
